@@ -1,0 +1,11 @@
+Si edito un archivo en la PC (o varios archivos de una carpeta)
+
+1) Lo(s) agrego al INDEX
+git add -A              --todos
+git add archivo.py      --uno solo
+
+2) Lo agrego al HEAD (listo para pushear)
+git commit -m "Algun comentario de los cambios"
+
+3) Lo pusheo al repo online (me pide usr y pass)
+git push origin master
